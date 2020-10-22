@@ -64,6 +64,18 @@
         $(this).removeClass("floating-label-form-group-with-focus");
       });
     });
+
+    // Modal Buttons
+    $(document).on("click", "#project", function () {
+
+      // Retrieve the Project Data
+      var $whichProject = $(this).data("href");
+      console.log(`$whichProject: ${$whichProject}`);
+
+      // Load the video to the player.html
+      window.open($whichProject, "_blank");
+
+  })
   
   })(jQuery); // End of use strict
   
