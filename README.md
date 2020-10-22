@@ -20,6 +20,7 @@
   ---
   ## Installation 
   This page is hosted on Git Pages, no installation required.  
+Project deployed: http://diemrbond.github.io
 
 
   
@@ -51,4 +52,4 @@ Bootstrap & https://startbootstrap.com/
   Email: [mrbondmustdie@gmail.com](mailto:mrbondmustdie@gmail.com)
 
   ---
-  © 2020 Andrew Kelleher | www.github.com/diemrbond
+  © 2020 Andrew Kelleher | http://diemrbond.github.io
