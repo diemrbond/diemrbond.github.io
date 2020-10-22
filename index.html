@@ -2,36 +2,266 @@
 <html lang="en-us">
 
 <head>
+
+  <!-- Metadata Declaration -->
   <meta charset="UTF-8">
-  <title>Andrew Kelleher (diemrbond)</title>
-  <link rel="stylesheet" type="text/css" href="css/reset.css">
-  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  
+  <!-- Page Components -->
+  <title>Andrew Kelleher</title>
+  <link rel="icon" href="./assets/favicon.png">
+  
+  <!-- Fonts & CSS-->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/js/all.min.js" crossorigin="anonymous"></script>
+  <link href="css/styles.css" rel="stylesheet"> <!-- Bootstrap-->
+  <link rel="stylesheet" href="css/heading.css">
+  <link rel="stylesheet" href="css/body.css">
+  <link rel="stylesheet" href="css/custom.css">
+
+  <!-- Used and modified a basic template from https://startbootstrap.com/themes/freelancer/ -->
+
 </head>
 
-<body>
-  <header>
-    <h1>Student Bio</h1>
+<body id="page-top">
+
+  <!-- BOOTSTRAP NAVBAR -->
+  <nav class="navbar navbar-expand-lg bg-secondary fixed-top" id="mainNav">
+    <!-- PAGE HEADING -->
+    <div class="container"><a class="navbar-brand js-scroll-trigger" href="#page-top">ANDREW KELLEHER</a>
+      <!-- MENU HAMBURGER -->
+      <button class="navbar-toggler navbar-toggler-right font-weight-bold bg-primary text-white rounded" type="button"
+        data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false"
+        aria-label="Toggle navigation">Menu</button>
+        <!-- MENU  -->
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger"
+              href="#about">ABOUT</a>
+          </li>
+          <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger"
+              href="#portfolio">PORTFOLIO</a>
+          </li>
+          <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger"
+              href="#contact">CONTACT</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- HERO SECTION -->
+  <header class="masthead hero text-white text-center">
+    <div class="container d-flex align-items-center flex-column">
+      <!-- AVATAR AND HEADING -->
+      <img class="masthead-avatar mb-5" src="assets/img/Avatar.png" alt="">
+      <h1 class="masthead-heading mb-0">ANDREW KELLEHER</h1>
+      <!-- DIVIDER -->
+      <div class="divider-custom divider-light">
+        <div class="divider-custom-line"></div>
+        <div class="divider-custom-icon"><i class="fas fa-code"></i></div>
+        <div class="divider-custom-line"></div>
+      </div>
+      <!-- SUBHEADING -->
+      <p class="pre-wrap masthead-subheading font-weight-light mb-0">Multimedia Design & Web Development</p>
+    </div>
   </header>
 
-  <div class="container">
+  <!-- ABOUT SECTION -->
+  <section class="page-section mb-0 bg-light" id="about">
+    <div class="container">
+      <!-- HEADING-->
+      <div class="text-center">
+        <h2 class="page-section-heading d-inline-block">ABOUT</h2>
+      </div>
+      <!-- DIVIDER-->
+      <div class="divider-custom">
+        <div class="divider-custom-line"></div>
+        <div class="divider-custom-icon"><i class="fas fa-question"></i></div>
+        <div class="divider-custom-line"></div>
+      </div>
+      <!-- BIO-->
+      <div class="row">
+        <div class="col-lg-4 ml-auto">
+          <p class="pre-wrap">Hi! My name is <strong>Andrew Kelleher</strong> and for the last 18+ years since graduating with a degree in Graphic & Multimedia Design from Curtin University, I have been working as a Multimedia Designer in Perth, Australia. I'm married with 3 kids, 2 dogs, 1 cat, 12 fish and a white picket fence.</p>
+        </div>
+        <div class="col-lg-4 mr-auto">
+          <p class="pre-wrap">I have interest and skills in the Adobe Suite (Animate, Flash, Photoshop, Illustrator, Captivate, Audition, After Effects, Premiere) of software, along with HTML5, CSS, JavaScript, jQuery, Node.js, Bootstrap, Articulate Storyline 360/Rise, PHP and more.</p>
+        </div>
+      </div>
+    </div>
+  </section>
 
-    <section id="main-bio">
+  <!-- PORTFOLIO -->
+  <section class="page-section portfolio" id="portfolio">
+    <div class="container">
+      <!-- HEADING-->
+      <div class="text-center">
+        <h2 class="page-section-heading text-secondary mb-0 d-inline-block">PORTFOLIO</h2>
+      </div>
+      <!-- DIVIDER-->
+      <div class="divider-custom">
+        <div class="divider-custom-line"></div>
+        <div class="divider-custom-icon"><i class="fas fa-folder-open"></i></div>
+        <div class="divider-custom-line"></div>
+      </div>
+      <!-- GRID-->
+      <div class="row justify-content-center">
+        <div class="col-md-6 col-lg-4 mb-5">
+          <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal0">
+            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+              <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-search fa-3x"></i></div>
+            </div><img class="img-fluid" src="assets/img/portfolio/weather.png" alt="Weather Dashboard" />
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4 mb-5">
+          <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal1">
+            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+              <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-search fa-3x"></i></div>
+            </div><img class="img-fluid" src="assets/img/portfolio/bodyweight.gif" alt="The Bodyweight Gym" />
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4 mb-5">
+          <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal2">
+            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+              <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-search fa-3x"></i></div>
+            </div><img class="img-fluid" src="assets/img/portfolio/readme.png" alt="Readme Generator" />
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
 
-      <h2>Andrew Kelleher</h2>
-
-      <img id="bio-image" src="assets/Andrew.jpg" alt="Andrew's Profile Picture">
-
-      <p>This page is for the UWA Coding Bootcamp, for assignment and learning uploads.</p>
-    </section>
-
-    <section id="contact-info">
-      <h2>Contact Info</h2>
-      <ul>
-        <li><strong>Github:</strong> <a href="http://www.github.com/diemrbond" target="_blank">diemrbond</a></li>
-        <li><strong>Portfolio:</strong> <a href="#">coming soon</a></li>
-      </ul>
-    </section>
+  <!-- WEATHER DASHBOARD MODAL-->
+  <div class="portfolio-modal modal fade" id="portfolioModal0" tabindex="-1" role="dialog"
+    aria-labelledby="#portfolioModal0Label" aria-hidden="true">
+    <div class="modal-dialog modal-xl" role="document">
+      <div class="modal-content">
+        <button class="close" type="button" data-dismiss="modal" aria-label="Close"><span aria-hidden="true"><i
+              class="fas fa-times"></i></span></button>
+        <div class="modal-body text-center">
+          <div class="container">
+            <div class="row justify-content-center">
+              <div class="col-lg-8">
+                <!-- TITLE-->
+                <h2 class="portfolio-modal-title text-secondary mb-0">Weather Dashboard</h2>
+                <!-- DIVIDER-->
+                <div class="divider-custom">
+                  <div class="divider-custom-line"></div>
+                  <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                  <div class="divider-custom-line"></div>
+                </div>
+                 <!-- PREVIEW IMAGE-->
+                 <img class="img-fluid rounded mb-5" src="assets/img/portfolio/weather-preview.png"
+                  alt="Log Cabin" />
+                <!-- TEXT-->
+                <p class="mb-5">For this project we needed to make a Weather Dashboard, that we can search for a City using the openweathermap API returning the temperature, humidity, UV index, wind speed and a 5 day forecast. The cities needed to be added to a search history for easy re-searching.</p>
+                <!-- MODAL BUTTONS -->
+                <button class="btn btn-primary mr-3" href="https://diemrbond.github.io/WeatherDashboard/" role="button">Visit Project</button><button class="btn btn-secondary" href="#" data-dismiss="modal">Close Window</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
   </div>
+  <!-- BODYWEIGHT GYM MODAL -->
+  <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog"
+    aria-labelledby="#portfolioModal1Label" aria-hidden="true">
+    <div class="modal-dialog modal-xl" role="document">
+      <div class="modal-content">
+        <button class="close" type="button" data-dismiss="modal" aria-label="Close"><span aria-hidden="true"><i
+              class="fas fa-times"></i></span></button>
+        <div class="modal-body text-center">
+          <div class="container">
+            <div class="row justify-content-center">
+              <div class="col-lg-8">
+                <!-- TITLE-->
+                <h2 class="portfolio-modal-title text-secondary mb-0">The Bodyweight Gym</h2>
+                <!-- DIVIDER-->
+                <div class="divider-custom">
+                  <div class="divider-custom-line"></div>
+                  <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                  <div class="divider-custom-line"></div>
+                </div>
+                 <!-- PREVIEW IMAGE-->
+                 <img class="img-fluid rounded mb-5" src="assets/img/portfolio/bodyweight.png" alt="The Bodyweight Gym" />
+                <!-- TEXT-->
+                <p class="mb-2">For a group project at the UWA Coding Bootcamp, we designed a sleek and user friendly follow along workout web application that helps users with their at home workout routines.</p>
+                  <p class="mb-2"> This application was designed using HTML, CSS, Javascript and JQuery.</p>                  
+                  <p class="mb-5"> The styling was completed using the Bulma CSS framework, keeping the design simple and easy to follow. The user is asked to "log in" using a pop up modal, where the user is able to input their name and their location, which are both stored into local storage.</p>
+                  <!-- MODAL BUTTONS -->
+                  <button class="btn btn-primary mr-3" href="https://mathew-harvey.github.io/The-Bodyweight-Gym-Online/" role="button">Visit Project</button><button class="btn btn-secondary" href="#" data-dismiss="modal">Close Window</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- README GENERATOR MODAL -->
+  <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog"
+    aria-labelledby="#portfolioModal2Label" aria-hidden="true">
+    <div class="modal-dialog modal-xl" role="document">
+      <div class="modal-content">
+        <button class="close" type="button" data-dismiss="modal" aria-label="Close"><span aria-hidden="true"><i
+              class="fas fa-times"></i></span></button>
+        <div class="modal-body text-center">
+          <div class="container">
+            <div class="row justify-content-center">
+              <div class="col-lg-8">
+                <!-- MODAL TITLE-->
+                <h2 class="portfolio-modal-title text-secondary mb-0">Readme Generator</h2>
+                <!-- DIVIDER-->
+                <div class="divider-custom">
+                  <div class="divider-custom-line"></div>
+                  <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                  <div class="divider-custom-line"></div>
+                </div>
+                <!-- PREVIEW IMAGE-->
+                <img class="img-fluid rounded mb-5" src="assets/img/portfolio/readme.gif" alt="Circus Tent" />
+                <!-- TEXT-->
+                <p class="mb-5">This app will allow you to create a professional readme.md file for your github directory, just by answering some simple question prompts.</p>
+                <!-- MODAL BUTTONS -->
+                <button class="btn btn-primary mr-3" href="https://github.com/diemrbond/ReadmeGenerator" role="button">Visit Project</button><button class="btn btn-secondary" href="#" data-dismiss="modal">Close Window</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>  
+    
+  <!-- CONTACT -->
+  <footer class="footer text-center" id="contact">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12 mb-5 mb-lg-0">
+          <h4 class="mb-4 contact-heading">CONTACT</h4><br/>
+          <a class="btn btn-outline-light btn-social mx-1" href="https://www.github.com/diemrbond" target="_blank"><i class="fab fa-fw fa-github"></i></a>
+          <a class="btn btn-outline-light btn-social mx-1" href="https://www.linkedin.com/in/andrew-kelleher-58018588" target="_blank"><i class="fab fa-fw fa-linkedin-in"></i></a>
+          <a class="btn btn-outline-light btn-social mx-1" href="mailto:mrbondmustdie@gmail.com"><i class="far fa-fw fa-envelope"></i></a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- FOOTER-->
+  <section class="copyright py-4 text-center text-white">
+    <div class="container"><small class="pre-wrap">Copyright © 2020 Andrew Kelleher</small></div>
+  </section>
+
+  <!-- SCROLL TO TOP BUTTON (FOR MOBILE)-->
+  <div class="scroll-to-top d-lg-none position-fixed"><a class="js-scroll-trigger d-block text-center text-white rounded" href="#page-top"><i class="fa fa-chevron-up"></i></a></div>
+
+  <!-- BOOSTRAP JS-->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
+
+  <!-- THIRDPARTY JQUERY SCRIPT-->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
+
+  <!-- CORE THEME JS-->
+  <script src="js/scripts.js"></script>
 
 </body>
 
