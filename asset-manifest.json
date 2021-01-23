@@ -1,0 +1,38 @@
+{
+  "files": {
+    "main.css": "/static/css/main.1ce6bcd6.chunk.css",
+    "main.js": "/static/js/main.abbe0fde.chunk.js",
+    "main.js.map": "/static/js/main.abbe0fde.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.c42a9baa.js",
+    "runtime-main.js.map": "/static/js/runtime-main.c42a9baa.js.map",
+    "static/js/2.e7c27b1c.chunk.js": "/static/js/2.e7c27b1c.chunk.js",
+    "static/js/2.e7c27b1c.chunk.js.map": "/static/js/2.e7c27b1c.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.1ce6bcd6.chunk.css.map": "/static/css/main.1ce6bcd6.chunk.css.map",
+    "static/js/2.e7c27b1c.chunk.js.LICENSE.txt": "/static/js/2.e7c27b1c.chunk.js.LICENSE.txt",
+    "static/media/Avatar.106aa03e.png": "/static/media/Avatar.106aa03e.png",
+    "static/media/bodyweight.200feeae.gif": "/static/media/bodyweight.200feeae.gif",
+    "static/media/bodyweight.8b657fef.png": "/static/media/bodyweight.8b657fef.png",
+    "static/media/burger.12c7443d.png": "/static/media/burger.12c7443d.png",
+    "static/media/burger.a9246156.gif": "/static/media/burger.a9246156.gif",
+    "static/media/directship.9b047b30.png": "/static/media/directship.9b047b30.png",
+    "static/media/employee.6cd78d3d.png": "/static/media/employee.6cd78d3d.png",
+    "static/media/employee.dd6d178d.gif": "/static/media/employee.dd6d178d.gif",
+    "static/media/interface-preview.8f36c1ac.png": "/static/media/interface-preview.8f36c1ac.png",
+    "static/media/interface.7320d730.gif": "/static/media/interface.7320d730.gif",
+    "static/media/quiz-preview.020b5c3e.png": "/static/media/quiz-preview.020b5c3e.png",
+    "static/media/quiz.06512db4.png": "/static/media/quiz.06512db4.png",
+    "static/media/readme.2e85e570.gif": "/static/media/readme.2e85e570.gif",
+    "static/media/team.77714e27.png": "/static/media/team.77714e27.png",
+    "static/media/team.ea927c12.gif": "/static/media/team.ea927c12.gif",
+    "static/media/truck.6d72fed2.png": "/static/media/truck.6d72fed2.png",
+    "static/media/weather-preview.a738f997.png": "/static/media/weather-preview.a738f997.png",
+    "static/media/weather.7651c6bb.png": "/static/media/weather.7651c6bb.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.c42a9baa.js",
+    "static/js/2.e7c27b1c.chunk.js",
+    "static/css/main.1ce6bcd6.chunk.css",
+    "static/js/main.abbe0fde.chunk.js"
+  ]
+}
